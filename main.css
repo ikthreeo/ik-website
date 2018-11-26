@@ -46,3 +46,7 @@ h1 {
     margin: 50px auto 0;
     font-weight: 200;
 }
+
+.fonttest a {
+    text-decoration: none;
+}
