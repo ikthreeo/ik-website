@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Anodina';
+    src:
+        local('Anodina'),
+        local('Anodina-Regular'),
+        url('sourceFiles/Anodina/Anodina-Regular.otf');
+        font-weight: 400;
+    }
+@font-face {
+        font-family: 'Anodina';
+        src:
+            local('Anodina Extra Light'),
+            local('Anodina-ExtraLight'),
+            url('sourceFiles/Anodina/Anodina-ExtraLight.otf');
+            font-weight: 200;
+        }
+
+        
+html{
+    font-family: "Anodina", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #b2ff73;
+    text-align: center;
+}
+
+h1 {
+    margin: 30% auto 50px;
+}
+
+.time {
+    font-size: 2em;
+    padding: 10px 12px;
+    border: 1.5px solid #000;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.abb {
+    margin: 0 -1px 0 10px;
+}
+
+.fonttest {
+    max-width: 400px;
+    margin: 50px auto 0;
+    font-weight: 200;
+}
