@@ -29,16 +29,30 @@ body {
     background-image: url("sourceFiles/bg-pattern.jpg");
 }
 
+.box {
+    color: rgb(245, 245, 245);
+    display: block;
+    width: 375px;
+    height: 375px;
+    background-color:  rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);   
+}
+
 h1 {
     margin: 30% auto 50px;
+    padding-top: 25%;
 }
 
 .time {
     font-size: 2em;
     padding: 10px 12px;
     border: 1.5px solid #000;
+    color: white;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 .abb {
@@ -46,8 +60,7 @@ h1 {
 }
 
 .fonttest {
-    max-width: 400px;
-    margin: 50px auto 0;
+    margin: 50px;
     font-weight: 200;
 }
 
