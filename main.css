@@ -21,12 +21,8 @@ html{
 }
 
 body {
-    background-color: #b2ff73;
+    background-color: #e8e8e8;
     text-align: center;
-}
-
-#home {
-    background-image: url("sourceFiles/bg-pattern.jpg");
 }
 
 .box {
@@ -51,10 +47,6 @@ h1 {
     font-size: 40px;
     line-height: 0;
     display: inline;
-}
-
-video{
-    padding: 40px 20px 0;
 }
 
 .box h5 a{
